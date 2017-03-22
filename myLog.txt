@@ -1,0 +1,11 @@
+Create the necessary Folder Structure.
+Open command prompt and navigate into the directory and type
+# virtualenv venv
+this creates a virtual environment called venv
+#venv\scripts\activate
+this is to load the virtual environment venv
+install the need requirements 
+#pip install flask
+...
+#pip freeze > requirements.txt
+this is to document the install items in requirements.txt
